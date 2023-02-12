@@ -68,7 +68,7 @@ header {
     background-color: white;
 }
 
-.services .col-4:nth-child(2) .service-box {
+.services .col-lg-4:nth-child(2) .service-box {
     top: -70px !important;
 }
 
@@ -414,6 +414,10 @@ footer i {
     .contact-us {
         background-image: none;
     }
+
+    .services .col-lg-4:nth-child(2) .service-box {
+        top: -50px !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -434,8 +438,11 @@ footer i {
     }
 
     .caption {
-        width: 90%;
-            
+        width: 90%;    
+    }
+
+    .services .col-lg-4:nth-child(2) .service-box {
+        top: -50px !important;
     }
 
     .caption h1{
